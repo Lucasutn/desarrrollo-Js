@@ -17,3 +17,4 @@ var str = nombre.substr(1,3)
 var ultimaLetraNombre = nombre.charAt(nombre.length-1)
 
 var ultimaLetra = nombre.charAt(cantDeLetrasDelNombre-1)
+

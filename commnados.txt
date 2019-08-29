@@ -1,0 +1,7 @@
+var total = Math.round(precioDevino * 100*3)/100 (Math.round redondendea// 100*3/100 soluciona problema de decimales imprecisos)
+
+
+
+var totalStr = total.toFixed(2) (string que muestra el numero en formato string con cantidad determinada de decimales en este caso 2)
+
+var total2 = parseFloat(totalStr) (de string a float)
