@@ -74,4 +74,16 @@ function imprimirNombreYEdad(persona){
 
 imprimirNombreYEdad(hernan)
 
+//los objetos se pasan por referencia, si pasamos un objeto como parametro se va a ver modificado dentro y fuera de la funcion
+
+function cumpleaños(persona){
+
+    return{
+        ...persona,
+        edad: persona.edad+1
+    }
+
+
+
+}
 
